@@ -11,3 +11,10 @@ img{max-width:100%;height:auto}
 .reveal-ready .reveal.is-visible{opacity:1;transform:none}
 .service,.industry,.step,.pillars>div{transition:transform .22s ease,opacity .22s ease}
 @media(max-width:680px){.header-contact{white-space:nowrap}.nav a{padding:5px 0}.hero-visual{contain:layout paint}.contact-btn,.btn-primary{min-height:48px;display:inline-flex;align-items:center}}
+
+/* Floating WhatsApp quick contact */
+.floating-whatsapp{position:fixed;right:20px;bottom:20px;z-index:80;display:flex;align-items:center;gap:12px;background:#202321;color:#d8ff36;padding:13px 17px;border-radius:999px;box-shadow:0 8px 24px #0002;font-size:12px;font-weight:700;transition:transform .2s ease,box-shadow .2s ease}
+.floating-whatsapp:hover{transform:translateY(-3px);box-shadow:0 12px 30px #0003}
+.floating-whatsapp b{font-size:16px}
+@media(max-width:680px){.floating-whatsapp{right:14px;bottom:14px;padding:12px 15px;box-shadow:0 5px 18px #0003}}
+@media(prefers-reduced-motion:reduce){.floating-whatsapp{transition:none}}
